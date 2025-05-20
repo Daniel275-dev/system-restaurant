@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Site com Navbar e Imagem</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+    }
+
+    /* NAVBAR */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #333;
+      padding: 10px 20px;
+      color: white;
+      height: 100px;
+    }
+
+    .logo {
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .search-box input {
+      padding: 5px;
+      border-radius: 4px;
+      border: none;
+      margin-top: 90px;
+    }
+
+    .user-info {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .user-info img {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+    }
+
+    /* BLOCO DE IMAGEM */
+    .image-block {
+      margin: 20px;
+      text-align: center;
+    }
+
+    .image-block img {
+      max-width: 90%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+    /* botoes*/
+    .btn_cardapio {
+      margin-top: 90px;
+      width: 100px;
+      height: 30px;
+    }
+    .btn_ofertas {
+      margin-top: 90px;
+      width: 100px;
+      height: 30px;
+    }
+    .btn_FazerPedido {
+      margin-top: 90px;
+      width: 100px;
+      height: 30px;
+    }
+    .btn_ReservarMesa {
+      margin-top: 90px;
+      width: 100px;
+      height: 30px;
+    }
+    .btn_carrinho {
+      margin-top: 90px;
+      width: 100px;
+      height: 30px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <div class="navbar">
+    <div class="logo">MeuSite</div>
+
+    <div class="search-box">
+      <input type="text" placeholder="Buscar...">
+    </div>
+    
+  
+    <button class="btn_cardapio">cardapio</button>
+    <button class="btn_ofertas">ofertas</button>
+    <button class="btn_FazerPedido">faça seu pedido</button>
+    <button class="btn_ReservarMesa">reserva</button>
+    <button class="btn_carrinho">carrinho</button>
+  
+
+    <div class="user-info">
+      <span>Olá, João</span>
+      <img src="https://via.placeholder.com/30" alt="Usuário">
+    </div>
+  </div>
+
+
+
+  <!-- BLOCO DE IMAGEM -->
+  <div class="image-block">
+    <img src="https://via.placeholder.com/800x400" alt="Imagem personalizada">
+    <!-- Substitua o link acima pelo da sua imagem -->
+  </div>
+
+</body>
+</html>
